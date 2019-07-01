@@ -1,0 +1,56 @@
+body{
+    background-color: ivory;
+}
+.headquote{
+    font-family: serif;
+    font-style: italic;
+    color: ivory;
+    background-color: black;
+    font-size: 2em;
+}
+.jumbotron{
+    background-image: url(hotsauce.jpg);
+    background-size: 100%;
+    filter: blur(7px);
+    -webkit-filter: blur(7px);
+}
+
+/*    social media buttons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.4;
+    text-decoration: none;
+    color: ivory;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-mail-reply {
+    background: #ff3f3a;
+    color: white;
+}
+.fa-instagram {
+    background: #df00db;
+    color: white;
+}
+.fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}

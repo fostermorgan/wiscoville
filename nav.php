@@ -7,11 +7,11 @@
         <ul class="navbar-nav mr-auto">
             <?php if(isset($_SESSION['username'])) { ?>
                 <li class="nav-item <?php if($page === "report"){ echo 'active';}?>">
-                    <a class="nav-link" href="report.php">Report</a>
+                    <a class="nav-link" href="#about">About</a>
                 </li>
             <?php } ?>
             <li class="nav-item <?php if($page === "hunts"){ echo 'active';}?>">
-                <a class="nav-link" href="hunts.php">Hunts</a>
+                <a class="nav-link" href="contact.php">Contact</a>
             </li>
         </ul>
         <div>

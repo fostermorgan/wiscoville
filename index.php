@@ -4,25 +4,39 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="wiscoville.css">
 
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <link rel="stylesheet" type="text/css" href="main.css" />
 
         <title>K&M Hot Sauce Co.</title>
+
     </head>
     <body>
-<!--     TODO: add fancy k&m hot sauce co bar-->
-
-<!--     TODO add floating jumbotron picture with text on top-->
-        <?php include 'nav.php' ?>
+        <div class="col text-center headquote">
+            K & M Hot Sauce Co.
+        </div>
+<!--     TODO add quotes to be on top -->
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container for-about">
+                <br />
+                <br /><br /><br /><br /><br /><br /><br /><br />
+            </div>
+        </div>
 
         <div class="container">
-            <div class="row">
-                <div class="col">
-                    this is a test
-                </div>
-            </div>
+            <?php include 'nav.php' ?>
 
+            <div class="text-center">
+                <!-- Add font awesome icons -->
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-snapchat-ghost"></a>
+                <a href="mailto:wiscoville@gmail.com" class="fa fa-mail-reply"></a>
+
+            </div>
+<!--        TODO add social media links -->
         </div>
 
 
