@@ -1,20 +1,56 @@
 body{
     background-color: ivory;
+    height: 100%;
+    background-image: url('fulldrawn.jpg');
+    /* Center and scale the image nicely */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#bg{
+  height: 100%;
+
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  /* background-color: ivory; */
+  text-align: center;
+}
+/* Note: Try to remove the following lines to see the effect of CSS positioning */
+  .affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+  }
+
+  .affix + .container-fluid {
+    padding-top: 70px;
+  }
+#topbar{
+  background-color: black;
+}
+.inner{
+  position: absolute;
 }
 .headquote{
     font-family: serif;
     font-style: italic;
     color: ivory;
-    background-color: black;
     font-size: 2em;
 }
-.jumbotron{
-    background-image: url(hotsauce.jpg);
+.blurredimg{
+    /* background-image: url('drawnlids.jpg'); */
     background-size: 100%;
-    filter: blur(7px);
-    -webkit-filter: blur(7px);
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
 }
-
+ul{
+  text-decoration: none;
+}
 /*    social media buttons */
 .fa {
     padding: 20px;

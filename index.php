@@ -13,30 +13,24 @@
 
     </head>
     <body>
-        <div class="col text-center headquote">
+        <!-- <div class="col text-center headquote">
             K & M Hot Sauce Co.
-        </div>
-<!--     TODO add quotes to be on top -->
-        <div class="jumbotron jumbotron-fluid">
-            <div class="container for-about">
-                <br />
-                <br /><br /><br /><br /><br /><br /><br /><br />
-            </div>
-        </div>
+        </div> -->
 
-        <div class="container">
-            <?php include 'nav.php' ?>
 
-            <div class="text-center">
-                <!-- Add font awesome icons -->
-                <a href="#" class="fa fa-facebook"></a>
-                <a href="#" class="fa fa-twitter"></a>
-                <a href="#" class="fa fa-instagram"></a>
-                <a href="#" class="fa fa-snapchat-ghost"></a>
-                <a href="mailto:wiscoville@gmail.com" class="fa fa-mail-reply"></a>
 
-            </div>
-<!--        TODO add social media links -->
+        <?php include('nav.php'); ?>
+        <div id="bg" class="container-fluid pr-0 pl-0">
+
+
+
+          <div class="footer pb-3 pt-3">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-snapchat-ghost"></a>
+            <a href="mailto:wiscoville@gmail.com" class="fa fa-mail-reply"></a>
+          </div>
         </div>
 
 
