@@ -1,0 +1,163 @@
+.jumbotron{
+  /* background-image: linear-gradient(#ff7b25, black); */
+  background-color: black;
+  background-size: cover;
+  max-height: 20px;
+  border-radius: 0 !important;
+  filter: drop-shadow(10px 10px 10px black);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.handwritten{
+  font-family: "Just Another Hand";
+  font-size: 90px;
+  font-weight: 0;
+  line-height: 100px;
+  color: black;
+  text-shadow: 7px 7px 0px rgba(0,0,0,0.1);
+}
+.header{
+  font-family: "Just Another Hand";
+  font-size: 55px;
+}
+.subheader{
+  font-family: "Arvo", sans-serif;
+  font-size: 2em;
+}
+.navbar{
+  position: relative;
+  margin-top: 0;
+  content: "";
+  padding-bottom: 130px;
+  margin-top: -140px;
+}
+.orange{
+  background-color: orange;
+}
+.info{
+  font-family: "Caveat", sans-serif;
+  font-size: 3em;
+}
+
+
+
+body{
+  background: url(fulldrawnblurred.jpg);
+  background-position: top center;
+
+}
+.inner_main_menu{
+
+  margin: 0 auto;
+  width: 100%;
+  font-family: 'Just Another Hand', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+.inner_main_menu ul{
+  margin: 0;
+  padding: 0 0 0;
+  list-style: none;
+  text-align: left;
+}
+
+.inner_main_menu ul li a{
+  color: white;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: block;
+  padding: 5px 20px;
+  text-shadow: 2px 2px 8px white;
+}
+.inner_main_menu ul li a:hover{
+  color: orange;
+  text-shadow: 2px 2px 8px orange;
+}
+.dropdown-menu a{
+ color: #111111 !important;
+ text-shadow: 2px 2px 8px orange;
+}
+.dropdown-menu a:hover{
+    background: #ff7b25!important;
+    background: linear-gradient(left, #feb236, #ff7b25);
+    background: -moz-linear-gradient(left, #feb236, #ff7b25)!important;
+    background: -webkit-gradient(linear, 100% 100%, 0% 0%, from(#feb236), to(#ff7b25))!important;
+    color: #f8f9fa !important;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    text-shadow: 2px 2px 8px orange;
+}
+
+#main_menu{
+  width: 100%;
+  position: relative;
+}
+.content{
+  padding-top: 0;
+  margin-top: 0;
+}
+.logo{
+  width: 200px;
+  height: 200;
+  position: relative;
+  left: 50%;
+  content: "";
+  margin-left: -100px;
+  text-align: center;
+  /* width: 300px;
+  height: 300;
+  position: relative;
+  left: 50%;
+  content: "";
+  margin-left: -150px;
+  text-align: center; */
+}
+.logosmall{
+  width: 100px;
+  height: 100;
+  padding-top: 10px;
+  position: relative;
+  left: 50%;
+  content: "";
+  margin-left: -50px;
+  text-align: center;
+}
+
+
+/* for social media */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    color: orange;
+    opacity: 0.6;
+    text-decoration: none;
+    filter: drop-shadow(10px 10px 10px orange);
+
+}
+
+.fa-facebook {
+    /* background: #3B5998; */
+    color: black;
+}
+
+.fa-mail-reply {
+    /* background: #ff3f3a; */
+    color: black;
+}
+.fa-instagram {
+    /* background: #df00db; */
+    color: black;
+}

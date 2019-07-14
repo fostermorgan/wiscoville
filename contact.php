@@ -1,65 +1,132 @@
 <?php
-    $state = 'new';
+    $page = 'contact';
+
+    $message = "";
+    $message_type = "";
+
+    function verifyFirstName(){
+      if($_POST['firstname'] != ''){
+        return true;
+      }
+      return false;
+    }
+    function verifyEmail(){
+      if($_POST['email'] != ''){
+        return true;
+      }
+      return false;
+    }
+    function verifyMessage(){
+      if($_POST['message'] != ''){
+        return true;
+      }
+      return false;
+    }
+
+    function validateForm(){
+      if(!verifyFirstName()){
+        $message = "Please enter your first name";
+        $message_type = "invalid";
+        return false;
+      }else if(!verifyEmail()){
+        $message = "Please enter your email";
+        $message_type = "invalid";
+        return false;
+      }else if(!verifyMessage()){
+        $message = "Please enter a message";
+        $message_type = "invalid";
+        return false;
+      }else{
+        $message_type = "valid";
+        return true;
+      }
+    }
+    function sendRequest(){
+      // email knm.wiscoville@gmail.
+      $lastname = "";
+      if(isset($_POST['lastname'])){
+        $lastname = " " . $_POST['lastname'];
+      }
+      $name = $_POST['firstname'] . $lastname;
+      
+      $email = $_POST["email"];
+      $to = "knm.wiscoville@gmail.com";
+      $subject = "New Contact Submission";
+      $headers = "From: $email\n";
+      $message = "You have received a new message from $name.\n" . "Here is the message:\n $message";
+
+      // $user = "$email";
+      // $usersubject = "Thank You";
+      // $userheaders = "From: you@youremailaddress.com\n";
+      // $usermessage = "Thank you for subscribing to our mailing list.";
+      mail($to,$subject,$message,$headers);
+      // mail($user,$usersubject,$usermessage,$userheaders);
+
+
+    }
+
+    if(isset($_POST['sendEmail'])){
+      if(validateForm()){
+        sendRequest();
+        $message = "Thanks for reaching out to us!";
+        $message_type = "success";
+      }else {
+        $message_type = "invalid";
+      }
+    }
 ?>
 <!DOCTYPE html>
 <html>
     <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
         <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Just+Another+Hand" />
         <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Homemade+Apple" />
         <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Arvo&display=swap" >
 
-        <link rel="stylesheet" type="text/css" href="main3.css" />
+        <link rel="stylesheet" type="text/css" href="main.css" />
         <link rel="icon" type="image/ico" href="knmicon.ico" />
         <title>K&M Hot Sauce Co.</title>
     </head>
     <body>
       <?php include 'nav.php'; ?>
       <div class="content container">
-        <div class="justanotherhand pt-4 mb-5 text-center">
+
+        <div class="header mb-5 text-center">
           Contact Us
         </div>
+        <?php if($message !== ""){ ?>
+          <div class="alert alert-success">
+            <?php echo $message; ?>
+          </div>
+        <?php } ?>
         <form method="post">
           <div class="form-row">
             <div class="col-md-3 mb-3">
-              <label for="validationServer01">First name</label>
-              <input type="text" class="form-control is-valid" id="validationServer01" placeholder="First name" value="Mark" required>
-              <div class="valid-feedback">
-                Saucy!
-              </div>
+              <label for="firstname">First name*</label>
+              <input type="text" class="form-control is-<?php echo $message_type; ?>" id="firstname" name="firstname" placeholder="First name" required>
+
             </div>
             <div class="col-md-3 mb-3">
-              <label for="validationServer02">Last name</label>
-              <input type="text" class="form-control is-valid" id="validationServer02" placeholder="Last name" required>
-              <div class="valid-feedback">
-                Saucy!
-              </div>
+              <label for="lastname">Last name</label>
+              <input type="text" class="form-control" id="lastname" name"lastname" placeholder="Last name">
             </div>
             <div class="col-md-6 mb-3">
-              <label for="email">Email</label>
-              <input type="text" class="form-control is-valid" id="email" placeholder="Email" required>
-              <div class="valid-feedback">
-                Saucy!
-              </div>
+              <label for="email">Email*</label>
+              <input type="text" class="form-control is-<?php echo $message_type; ?>" id="email" name="email" placeholder="Email" required>
+
             </div>
             <div class="form-group col-12">
-              <label for="exampleFormControlTextarea1">Description</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+              <label for="message">Message*</label>
+              <textarea class="form-control is-<?php echo $message_type; ?>" id="message" name="message" rows="3" required></textarea>
+
             </div>
           </div>
-          <button class="btn btn-primary btn-dark mt-3" type="submit">Submit</button>
+          <button class="btn btn-primary btn-dark mt-3" type="submit" name="sendEmail">Send</button>
         </form>
-
-
-        <!-- <img id="sauce" class="img-fluid float-left d-block mb-5 col-4 p-0 shadow-lg col-12-lg col-4" src="hotsauce.jpg" alt="Beautiful tasty K & M Sauce" style="height: 300px; width: 400px;"> -->
-        <div class="col-12 footer pb-3 pt-5">
-          <a href="#" class="fa fa-facebook"></a>
-          <a href="#" class="fa fa-twitter"></a>
-          <a href="#" class="fa fa-instagram"></a>
-          <a href="#" class="fa fa-snapchat-ghost"></a>
-          <a href="mailto:knm.wiscoville@gmail.com" class="fa fa-mail-reply"></a>
-        </div>
+        <?php include 'footer.php'; ?>
 
       </div>
 

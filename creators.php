@@ -1,35 +1,45 @@
 <?php
-    $state = 'new';
-?>
+  $page = 'creators';
+ ?>
 <!DOCTYPE html>
 <html>
     <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
         <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Just+Another+Hand" />
         <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Homemade+Apple" />
         <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Arvo&display=swap" >
 
-        <link rel="stylesheet" type="text/css" href="main3.css" />
+        <link rel="stylesheet" type="text/css" href="main.css" />
         <link rel="icon" type="image/ico" href="knmicon.ico" />
         <title>K&M Hot Sauce Co.</title>
     </head>
     <body>
       <?php include 'nav.php'; ?>
       <div class="content container">
-        <div class="justanotherhand pt-4 mb-5 text-center">
+        <div class="header mb-5 text-center">
           Meet us, the creators...
         </div>
         <div class="row">
           <div class="col-12 title pt-0 shadow rounded-more">
-            <div class="brandname text-left mb-3">Sam and Foster</div>
+            <div class="subheader text-left mb-3">Our Story</div>
             <div class="info text-left">
-              Honeybee's Sting has the sweetness of honey and the sting of a serrano pepper. Scoring a 4 out of 10 on the K & M Hot Sauce Scale, it will fancy everyone's taste buds.
+              In rural Wisconsin, two college guys were fed up with the lack of local hot sauce variety, which left them with one choice; to make their own. After unprecedented popularity among family, friends, and peers, they knew they were on to something truly sensational.
             </div>
           </div>
-        </div>
-        <!-- <img id="sauce" class="img-fluid float-left d-block mb-5 col-4 p-0 shadow-lg col-12-lg col-4" src="hotsauce.jpg" alt="Beautiful tasty K & M Sauce" style="height: 300px; width: 400px;"> -->
+          <div class="subheader text-left mb-3">Sam Kuehn</div>
+          <div class="info text-left">
+            Sam’s appreciation for good food and home cooking began at a young age, when he was taught how to cook by his parents. After spending four years working in the restaurant business, his experience and passion grew. Being a self acclaimed “chilihead”, hot sauce aficionado, and culinary enthusiast, Sam enjoys sharing his love for cooking and food with others. He currently attends the University of Wisconsin-Eau Claire, studying English and Communications, while still furthering his interest in gourmet cooking and new culinary creations.
+          </div>
+          <div class="subheader text-left mb-3">Foster Morgan</div>
+          <div class="info text-left">
+            Foster's appreciation for good food and home cooking began at a young age, when he was taught how to cook by his parents. After spending four years working in the restaurant business, his experience and passion grew. Being a self acclaimed “chilihead”, hot sauce aficionado, and culinary enthusiast, Sam enjoys sharing his love for cooking and food with others. He currently attends the University of Wisconsin-Eau Claire, studying English and Communications, while still furthering his interest in gourmet cooking and new culinary creations.
+          </div>
 
+        </div>
+        <?php include 'footer.php'; ?>
 
       </div>
 
