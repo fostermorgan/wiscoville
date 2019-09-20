@@ -257,7 +257,24 @@
 
         </div>
         <!-- newsletter -->
-      <div class="newsletter col-12 col-lg-6 text-center">
+      <div class="newsletter col-12 col-lg-6 text-center ml-0 row">
+        <form id="newsletterform" action="#" class="mt-0 mb-2" method="post" name="newsletter">
+          <div class="newsletterheader text-center">
+             <p>Newsletter</p>
+          </div>
+          <hr class="divider my-0 pb-4">
+
+          <div class="newsletterdescription">
+            <p>K&M Sauce Co. is almost ready to go live. If you're interested, then sign up below to be the first to know when we are.</p>
+          </div>
+          <div class="input">
+            <input type="text" class="button" id="newsletteremail" name="newsletteremail" placeholder="NAME@EXAMPLE.COM" required>
+            <input type="submit" class="button" id="newsletterSubmit" name="newsletterSubmit" value="SIGN UP">
+          </div>
+        </form>
+      </div>
+
+      <!-- <div class="newsletter col-12 d-lg-none border border-dark text-center row">
         <form id="newsletterform" action="#" class="mt-0 mb-2" method="post" name="newsletter">
           <div class="newsletterheader">
              <p>Newsletter</p>
@@ -272,7 +289,10 @@
             <input type="submit" class="button" id="newsletterSubmit" name="newsletterSubmit" value="SIGN UP">
           </div>
         </form>
-      </div>
+      </div> -->
+
+
+
     </div>
     <!-- Copyright -->
     <div class="text-center">
