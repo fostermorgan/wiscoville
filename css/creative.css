@@ -216,7 +216,7 @@ div:hover{
 }
 
 #newsletteremail {
-  width: 75%;
+  /* width: 75%; */
   background: #FDFCFB;
   font-family: inherit;
   color: #737373;
@@ -226,7 +226,7 @@ div:hover{
 }
 
 #newsletterSubmit {
-  width: 25%;
+  /* width: 25%; */
   height: 46px;
   background: rgba(255,165,0,.6);
 
