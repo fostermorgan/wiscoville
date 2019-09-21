@@ -176,7 +176,7 @@
           </div>
         </div>
         <div class="col-lg-6">
-          <div class="pt-5 pl-5 pr-5">
+          <div class="pt-2 pt-md-lg pl-5 pr-5">
             <h2 class="display-4 name">Sam Kuehn</h2>
             <p class="description">Sam’s appreciation for good food and home cooking began at a young age, when he was taught how to cook by his parents. After spending four years working in the restaurant business, his experience and passion grew. Being a self acclaimed “chilihead”, hot sauce aficionado, and culinary enthusiast, Sam enjoys sharing his love for cooking and food with others. He currently attends the University of Wisconsin-Eau Claire, studying English and Communications, while still furthering his interest in gourmet cooking and new culinary creations.</p>
           </div>
@@ -198,7 +198,7 @@
           </div>
         </div>
         <div class="col-lg-6 order-lg-1">
-          <div class="pt-5 pl-5 pr-5">
+          <div class="pt-2 pt-md-lg pl-5 pr-5">
             <h2 class="display-4 name">Foster Morgan</h2>
             <p class="description">Foster was first taught the master of cooking cookies in middle school. Soon after, an epiphany occured to him. He realized he can create his own cookies anytime he wanted (not to mention he didn't have to leave the house). Fast forwarding a couple of years, Foster attends University of Wisconsin-Eau Claire with Sam, majoring in Computer Science. He even made this website you're looking at right now. It wasn't until recently that Sam inspired Foster to pick up his long lost passion for cooking, except this time the 'cookie dough' is a little more spicy.</p>
           </div>
