@@ -121,7 +121,7 @@
         <div class="container-fluid p-0">
           <div class="row no-gutters">
             <div class="col-lg-4 col-sm-6 pb-3">
-              <a class="portfolio-box" href="img/singlebottle.png">
+              <li class="portfolio-box" href="img/singlebottle.png">
                 <img class="img-fluid rounded mx-auto d-block w-25 pt-2" src="img/singlebottle.png" alt="">
                 <div class="portfolio-box-caption">
                   <div class="project-category text-white-50">
@@ -144,11 +144,11 @@
                 <div class="sauce-price pb-3">
                   $7.99
                 </div>
-              </a>
+              </li>
 
             </div>
             <div class="col-lg-4 col-sm-6">
-              <a class="portfolio-box" href="img/mysterybottle.png">
+              <li class="portfolio-box" href="img/mysterybottle.png">
                 <img class="img-fluid rounded mx-auto d-block w-25 pt-2" src="img/mysterybottle.png" alt="">
                 <div class="portfolio-box-caption">
                   <div class="project-category text-white-50">
@@ -169,11 +169,11 @@
                 <div class="sauce-price pb-3">
                   $7.99
                 </div>
-              </a>
+              </li>
 
             </div>
             <div class="col-lg-4 col-sm-6">
-              <a class="portfolio-box" href="img/mysterybottle.png">
+              <li class="portfolio-box" href="img/mysterybottle.png">
                 <img class="img-fluid rounded mx-auto d-block w-25 pt-2" src="img/mysterybottle.png" alt="">
                 <div class="portfolio-box-caption">
                   <div class="project-category text-white-50">
@@ -194,11 +194,11 @@
                 <div id="link" class="sauce-price pb-3" style="text-decoration: none;">
                   $7.99
                 </div>
-              </a>
+              </li>
 
             </div>
             <div class="col-lg-4 col-sm-6">
-              <a class="portfolio-box" href="img/mysterybottle.png">
+              <li class="portfolio-box" href="img/mysterybottle.png">
                 <img class="img-fluid rounded mx-auto d-block w-25 pt-2" src="img/mysterybottle.png" alt="">
                 <div class="portfolio-box-caption">
                   <div class="project-category text-white-50">
@@ -219,11 +219,11 @@
                 <div class="sauce-price pb-3">
                   $7.99
                 </div>
-              </a>
+              </li>
 
             </div>
             <div class="col-lg-4 col-sm-6">
-              <a class="portfolio-box" href="img/mysterybottle.png">
+              <li class="portfolio-box" href="img/mysterybottle.png">
                 <img class="img-fluid rounded mx-auto d-block w-25 pt-2" src="img/mysterybottle.png" alt="">
                 <div class="portfolio-box-caption">
                   <div class="project-category text-white-50">
@@ -244,11 +244,11 @@
                 <div class="sauce-price pb-3">
                   $7.99
                 </div>
-              </a>
+              </li>
 
             </div>
             <div class="col-lg-4 col-sm-6">
-              <a class="portfolio-box" href="img/mysterybottle.png">
+              <li class="portfolio-box" href="img/mysterybottle.png">
                 <img class="img-fluid rounded mx-auto d-block w-25 pt-2" src="img/mysterybottle.png" alt="">
                 <div class="portfolio-box-caption">
                   <div class="project-category text-white-50">
@@ -269,7 +269,7 @@
                 <div class="sauce-price pb-3">
                   $7.99
                 </div>
-              </a>
+              </li>
 
             </div>
           </div>
