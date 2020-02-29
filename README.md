@@ -1,5 +1,5 @@
 ## Genereal Information
-Information main page for all interested users and buys of K&M Hot Sauce to come to. 
+Informational page for all interested users and potential buyers of K&M Hot Sauce to come to. 
 Heavily Influenced from the Creative bootstrap theme with added pages and features.
 Have yet to implement a store as getting the business running is prioritized.
 
