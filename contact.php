@@ -128,14 +128,14 @@
       <!-- Theme CSS - Includes Bootstrap -->
       <link href="css/creative.css" rel="stylesheet">
 
-      <title>K&M | Contact</title>
+      <title>K & M | Contact</title>
     </head>
     <body id="page-top">
       <!-- Navigation -->
       <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
 
         <div class="container">
-          <a class="navbar-brand js-scroll-trigger" href="index.php#page-top">K & M Hot Sauce Co.</a>
+          <a class="navbar-brand js-scroll-trigger" href="index.php#page-top">K & M Hot Sauce</a>
           <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -228,7 +228,7 @@
               <hr class="divider my-0 pb-4">
 
               <div class="newsletterdescription">
-                <p>K&M Sauce Co. is almost ready to go live. If you're interested, then sign up below to be the first to know when we are.</p>
+                <p>K & M Hot Sauce is almost ready to go live. If you're interested, then sign up below to be the first to know when we are.</p>
               </div>
               <div class="input">
                 <input type="text" class="button" id="newsletteremail" name="newsletteremail" placeholder="NAME@EXAMPLE.COM" required>
@@ -240,7 +240,7 @@
         <!-- Copyright -->
         <div class="text-center">
           <hr class="clearfix w-75" />
-          <div class="footer-copyright pt-2">© 2019 Copyright: K&M Sauce Co. | Designed by:
+          <div class="footer-copyright pt-2">© 2019 Copyright: K & M Hot Sauce LLC | Designed by:
             <a href="http://www.thefostermorgan.com" target="_blank"> Foster Morgan</a>
           </div>
         </div>

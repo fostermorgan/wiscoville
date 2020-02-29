@@ -42,7 +42,7 @@
   <meta name="description" content="">
   <meta name="author" content="Foster Morgan">
 
-  <title>K & M Hot Sauce Co.</title>
+  <title>K & M Hot Sauce</title>
 
   <!-- Font Awesome Icons -->
   <link href="vendor/fontawesome-free/css/all.css" rel="stylesheet" type="text/css">
@@ -79,7 +79,7 @@
 
     <div class="container">
 
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">K & M Hot Sauce Co.</a>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">K & M Hot Sauce</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -156,7 +156,7 @@
         <div class="col-lg-8 order-lg-1">
           <div>
             <h2 class="display-4 name">Our Sauce, Our Story</h2>
-            <p class="description">In rural Wisconsin, two college guys were fed up with the lack of local hot sauce variety, which left them with one choice; to make their own. After unprecedented popularity among family, friends, and peers, they knew they were on to something truly sensational.</p>
+            <p class="description pb-0">In rural Wisconsin, two college guys were fed up with the lack of local hot sauce variety, which left them with one choice; to make their own. After unprecedented popularity among family, friends, and peers, they knew they were on to something truly sensational.</p>
           </div>
         </div>
       </div>
@@ -178,7 +178,7 @@
         <div class="col-lg-6">
           <div class="pt-5 pl-5 pr-5">
             <h2 class="display-4 name">Sam Kuehn</h2>
-            <p class="description">Sam’s appreciation for good food and home cooking began at a young age, when he was taught how to cook by his parents. After spending four years working in the restaurant business, his experience and passion grew. Being a self acclaimed “chilihead”, hot sauce aficionado, and culinary enthusiast, Sam enjoys sharing his love for cooking and food with others. He currently attends the University of Wisconsin-Eau Claire, studying English and Communications, while still furthering his interest in gourmet cooking and new culinary creations.</p>
+            <p class="profile-description">Sam’s appreciation for good food and home cooking began at a young age, when he was taught how to cook by his parents. After spending four years working in the restaurant business, his experience and passion grew. Being a self acclaimed “chilihead”, hot sauce aficionado, and culinary enthusiast, Sam enjoys sharing his love for cooking and food with others. He currently attends the University of Wisconsin-Eau Claire, studying English and Communications, while still furthering his interest in gourmet cooking and new culinary creations.</p>
           </div>
           <div class="pr-5 pl-5 pb-5">
             <img class="img-fluid" src="./img/samSignaturealpha.png" alt="Sam Kuehn's Signature">
@@ -200,7 +200,7 @@
         <div class="col-lg-6 order-lg-1">
           <div class="pt-5 pl-5 pr-5">
             <h2 class="display-4 name">Foster Morgan</h2>
-            <p class="description">Foster was first taught the master of cooking cookies in middle school. Soon after, an epiphany occured to him. He realized he can create his own cookies anytime he wanted (not to mention he didn't have to leave the house). Fast forwarding a couple of years, Foster attends University of Wisconsin-Eau Claire with Sam, majoring in Computer Science. He even made this website you're looking at right now. It wasn't until recently that Sam inspired Foster to pick up his long lost passion for cooking, except this time the 'cookie dough' is a little more spicy.</p>
+            <p class="profile-description">Foster was first taught the master of cooking cookies in middle school. Soon after, an epiphany occured to him. He realized he can create his own cookies anytime he wanted (not to mention he didn't have to leave the house). Fast forwarding a couple of years, Foster attends University of Wisconsin-Eau Claire with Sam, majoring in Computer Science. He even made this website you're looking at right now. It wasn't until recently that Sam inspired Foster to pick up his long lost passion for cooking, except this time the 'cookie dough' is a little more spicy.</p>
           </div>
           <div class="pr-5 pl-5 pb-5">
             <img class="img-fluid w-75" src="./img/fosterSignaturealpha.png" alt="Foster Morgan's Signature">
@@ -265,7 +265,7 @@
           <hr class="divider my-0 pb-4">
 
           <div class="newsletterdescription">
-            <p>K&M Sauce Co. is almost ready to go live. If you're interested, then sign up below to be the first to know when we are.</p>
+            <p>K & M Hot Sauce is almost ready to go live. If you're interested, then sign up below to be the first to know when we are.</p>
           </div>
           <div class="input">
             <input type="text" class="button" id="newsletteremail" name="newsletteremail" placeholder="NAME@EXAMPLE.COM" required>
@@ -277,7 +277,7 @@
     <!-- Copyright -->
     <div class="text-center">
       <hr class="clearfix w-75" />
-      <div class="footer-copyright pt-2">© 2019 Copyright: K&M Sauce Co. | Designed by:
+      <div class="footer-copyright pt-2">© 2019 Copyright: K & M Hot Sauce LLC | Designed by:
         <a href="http://www.thefostermorgan.com" target="_blank"> Foster Morgan</a>
       </div>
     </div>

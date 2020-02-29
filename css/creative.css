@@ -55,9 +55,13 @@ div:hover{
   font-family: 'Catamaran';
   font-weight: 800 !important;
 }
+.profile-description{
+  font-family: 'Lato';
+  font-size: 1em;
+}
 .description{
   font-family: 'Lato';
-
+  font-size: 1.5em;
 }
 .red{
   color: orange;
