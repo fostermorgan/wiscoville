@@ -66,14 +66,14 @@
       <!-- Theme CSS - Includes Bootstrap -->
       <link href="css/creative.css" rel="stylesheet">
 
-      <title>K&M | Shop</title>
+      <title>K & M | Shop</title>
   </head>
   <body id="page-top">
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
 
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="index.php#page-top">K & M Hot Sauce Co.</a>
+        <a class="navbar-brand js-scroll-trigger" href="index.php#page-top">K & M Hot Sauce</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -111,6 +111,30 @@
         </div>
       <?php } ?>
 
+      <!-- Alert Modal -->
+      <div class="modal hide fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Attention!</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              Due to regulations and the early stage of our business, we currently can't ship. If you would like to order a bottle please fill out a form on the contact tab and we would be more than happy to deliver to the Eau Claire area!
+            <br /> <br />
+            Thank you everyone for your support and business as we continue to grow and learn!
+            <br />
+            <span class="float-right"><em>Sincerly, Foster and Sam. </em></span>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <!-- Sauce Portfolio Section -->
       <section id="portfolio">
         <div class="title text-center">
@@ -125,13 +149,13 @@
                 <img class="img-fluid rounded mx-auto d-block w-25 pt-2" src="img/singlebottle.png" alt="">
                 <div class="portfolio-box-caption">
                   <div class="project-category text-white-50">
-                    Coming Soon...
+                    Finally Here!!!
                   </div>
                   <div class="project-name">
                     Honeybee's Sting
                     <!-- TODO: add button to sign up for email when available -->
                     <!-- <button id="myBtn" class="" href="contact.php" data-title="EMAIL WHEN AVAILABLE"></button> -->
-                    <br /><br />🔥
+                    <br /><br />🔥🔥🔥
                   </div>
                   <div class="sauce-details">
                      <br />
@@ -142,7 +166,7 @@
                   Honeybee's Sting
                 </div>
                 <div class="sauce-price pb-3">
-                  $7.99
+                  $10
                 </div>
               </li>
 
@@ -167,7 +191,7 @@
                   Essence of Flame
                 </div>
                 <div class="sauce-price pb-3">
-                  $7.99
+                  COMING SOON
                 </div>
               </li>
 
@@ -192,7 +216,7 @@
                   Heatonist’s Hellscape
                 </div>
                 <div id="link" class="sauce-price pb-3" style="text-decoration: none;">
-                  $7.99
+                  COMING SOON
                 </div>
               </li>
 
@@ -217,7 +241,7 @@
                   Tongue Tied
                 </div>
                 <div class="sauce-price pb-3">
-                  $7.99
+                  COMING SOON
                 </div>
               </li>
 
@@ -242,7 +266,7 @@
                   High Octane
                 </div>
                 <div class="sauce-price pb-3">
-                  $7.99
+                  COMING SOON
                 </div>
               </li>
 
@@ -267,7 +291,7 @@
                   Rocket Fuel
                 </div>
                 <div class="sauce-price pb-3">
-                  $7.99
+                  COMING SOON
                 </div>
               </li>
 
@@ -308,7 +332,7 @@
               <hr class="divider my-0 pb-4">
 
               <div class="newsletterdescription">
-                <p>K&M Sauce Co. is almost ready to go live. If you're interested, then sign up below to be the first to know when we are.</p>
+                <p>K & M Hot Sauce is almost ready to go live. If you're interested, then sign up below to be the first to know when we are.</p>
               </div>
               <div class="input">
                 <input type="text" class="button" id="newsletteremail" name="newsletteremail" placeholder="NAME@EXAMPLE.COM" required>
@@ -320,8 +344,8 @@
         <!-- Copyright -->
         <div class="text-center">
           <hr class="clearfix w-75" />
-          <div class="footer-copyright pt-2">© 2019 Copyright: K&M Sauce Co. | Designed by:
-            <a href="http://www.thefostermorgan.com" target="_blank"> Foster Morgan</a>
+          <div class="footer-copyright pt-2">© 2019 Copyright: K & M Hot Sauce LLC | Designed by:
+            <a href="https://www.linkedin.com/in/foster-morgan/" target="_blank"> Foster Morgan</a>
           </div>
         </div>
       </div>
@@ -362,5 +386,11 @@
 
       <!-- Custom scripts for this template -->
       <script src="js/creative.min.js"></script>
+
+      <script type="text/javascript">
+          $(window).on('load',function(){
+              $('#exampleModalCenter').modal('show');
+          });
+      </script>
   </body>
 </html>
