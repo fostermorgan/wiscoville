@@ -248,7 +248,7 @@
           <ul class="list-unstyled list-inline text-center pb-3">
             <li class="list-inline-item">
               <a href="https://www.facebook.com/KM-Sauce-Co-106929733982252/" target="_blank" class="fa fa-facebook mr-3"></a>
-              <a href="https://www.instagram.com/knmsauceco/" target="_blank" class="fa fa-instagram mr-3"></a>
+              <a href="https://www.instagram.com/knmhotsauce/" target="_blank" class="fa fa-instagram mr-3"></a>
               <a href="mailto:knm.wiscoville@gmail.com" class="fa fa-envelope-o"></a>
             </li>
           </ul>

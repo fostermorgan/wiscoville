@@ -122,10 +122,11 @@
               </button>
             </div>
             <div class="modal-body">
-              Due to regulations and the early stage of our business, we currently can't ship. If you would like to order a bottle please fill out a form on the contact tab and we would be more than happy to deliver to the Eau Claire area!
+              Due to regulations and the early stage of our business, we currently can't ship. If you would like to order a bottle please 
+              reach out to us on <a href="https://www.facebook.com/knmhotsauce" target="_blank">facebook</a>, <a href="https://www.instagram.com/knmhotsauce/" target="_blank">instagram</a>, <a href="mailto:knm.wiscoville@gmail.com">email us</a>, or <a href="./contact.php">fill out a form</a> on the contact tab and we would be more than happy to deliver to the Eau Claire area!
             <br /> <br />
             Thank you everyone for your support and business as we continue to grow and learn!
-            <br />
+            <br /> <br />
             <span class="float-right"><em>Sincerly, Foster and Sam. </em></span>
             </div>
             <div class="modal-footer">
@@ -315,7 +316,7 @@
               <ul class="list-unstyled list-inline text-center pb-3">
                 <li class="list-inline-item">
                   <a href="https://www.facebook.com/KM-Sauce-Co-106929733982252/" target="_blank" class="fa fa-facebook mr-3"></a>
-                  <a href="https://www.instagram.com/knmsauceco/" target="_blank" class="fa fa-instagram mr-3"></a>
+                  <a href="https://www.instagram.com/knmhotsauce/" target="_blank" class="fa fa-instagram mr-3"></a>
                   <a href="mailto:knm.wiscoville@gmail.com" class="fa fa-envelope-o"></a>
                 </li>
               </ul>

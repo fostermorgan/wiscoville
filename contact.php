@@ -93,7 +93,8 @@
         $message_type = "success";
       }else {
         $message_type = "invalid";
-        $message = "There was an error on our end :( Please email us at knm.wiscoville@gmail.com to contact us.";
+        $message = "There was an error on our end :( Please 
+        reach out to us on <a href=\"https://www.facebook.com/knmhotsauce\" target=\"_blank\">facebook</a>, <a href=\"https://www.instagram.com/knmhotsauce/\" target=\"_blank\">instagram</a>, <a href=\"mailto:knm.wiscoville@gmail.com\">email</a> to contact us.";
       }
     }
 ?>
@@ -176,7 +177,7 @@
           <div class="alert alert-success">
             <?php echo $message; ?>
           </div>
-        <?php } else { ?>
+        <?php } else if($message !== "" && $message_type === "invalid") { ?>
           <div class="alert alert-danger">
             <?php echo $message; ?>
           </div>
@@ -218,7 +219,7 @@
               <ul class="list-unstyled list-inline text-center pb-3">
                 <li class="list-inline-item">
                   <a href="https://www.facebook.com/KM-Sauce-Co-106929733982252/" target="_blank" class="fa fa-facebook mr-3"></a>
-                  <a href="https://www.instagram.com/knmsauceco/" target="_blank" class="fa fa-instagram mr-3"></a>
+                  <a href="https://www.instagram.com/knmhotsauce/" target="_blank" class="fa fa-instagram mr-3"></a>
                   <a href="mailto:knm.wiscoville@gmail.com" class="fa fa-envelope-o"></a>
                 </li>
               </ul>
