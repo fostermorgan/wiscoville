@@ -110,7 +110,6 @@
             </div>
         </div>
       <?php } ?>
-
       <!-- Alert Modal -->
       <div class="modal hide fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
@@ -122,10 +121,11 @@
               </button>
             </div>
             <div class="modal-body">
-              Due to regulations and the early stage of our business, we currently can't ship. If you would like to order a bottle please 
-              reach out to us on <a href="https://www.facebook.com/knmhotsauce" target="_blank">facebook</a>, <a href="https://www.instagram.com/knmhotsauce/" target="_blank">instagram</a>, <a href="mailto:knm.wiscoville@gmail.com">email us</a>, or <a href="./contact.php">fill out a form</a> on the contact tab and we would be more than happy to deliver to the Eau Claire area!
+              We're displeased to announce K & M Hot Sauce is no longer in business. This site will no longer be running after July, 3rd 2023. However, we both learned so much along the journey
+              and would like to thank all of those we met along the way. 
             <br /> <br />
-            Thank you everyone for your support and business as we continue to grow and learn!
+            Thank you everyone who supported our business as both of us founders move towards a new chapter in our lives! We may not be in the hot sauce battlefield, but we will take
+            the lessons we learned into our new adventures.
             <br /> <br />
             <span class="float-right"><em>Sincerly, Foster and Sam. </em></span>
             </div>
@@ -150,7 +150,7 @@
                 <img class="img-fluid rounded mx-auto d-block w-25 pt-2" src="img/singlebottle.png" alt="">
                 <div class="portfolio-box-caption">
                   <div class="project-category text-white-50">
-                    Finally Here!!!
+                    Here lies the tombstone of
                   </div>
                   <div class="project-name">
                     Honeybee's Sting
@@ -167,7 +167,7 @@
                   Honeybee's Sting
                 </div>
                 <div class="sauce-price pb-3">
-                  $10
+                  Discontinued
                 </div>
               </li>
 
@@ -177,7 +177,7 @@
                 <img class="img-fluid rounded mx-auto d-block w-25 pt-2" src="img/mysterybottle.png" alt="">
                 <div class="portfolio-box-caption">
                   <div class="project-category text-white-50">
-                    Coming Soon...
+                    Here lies the tombstone of
                   </div>
                   <div class="project-name">
                     Essence of Flame
@@ -192,7 +192,7 @@
                   Essence of Flame
                 </div>
                 <div class="sauce-price pb-3">
-                  COMING SOON
+                  RIP
                 </div>
               </li>
 
@@ -202,7 +202,7 @@
                 <img class="img-fluid rounded mx-auto d-block w-25 pt-2" src="img/mysterybottle.png" alt="">
                 <div class="portfolio-box-caption">
                   <div class="project-category text-white-50">
-                    Coming Soon...
+                    Here lies the tombstone of
                   </div>
                   <div class="project-name">
                     Heatonist’s Hellscape
@@ -217,7 +217,7 @@
                   Heatonist’s Hellscape
                 </div>
                 <div id="link" class="sauce-price pb-3" style="text-decoration: none;">
-                  COMING SOON
+                  RIP
                 </div>
               </li>
 
@@ -227,7 +227,7 @@
                 <img class="img-fluid rounded mx-auto d-block w-25 pt-2" src="img/mysterybottle.png" alt="">
                 <div class="portfolio-box-caption">
                   <div class="project-category text-white-50">
-                    Coming Soon...
+                    Here lies the tombstone of
                   </div>
                   <div class="project-name">
                     Tongue Tied
@@ -242,7 +242,7 @@
                   Tongue Tied
                 </div>
                 <div class="sauce-price pb-3">
-                  COMING SOON
+                  RIP
                 </div>
               </li>
 
@@ -252,7 +252,7 @@
                 <img class="img-fluid rounded mx-auto d-block w-25 pt-2" src="img/mysterybottle.png" alt="">
                 <div class="portfolio-box-caption">
                   <div class="project-category text-white-50">
-                    Coming Soon...
+                    Here lies the tombstone of
                   </div>
                   <div class="project-name">
                     High Octane
@@ -267,7 +267,7 @@
                   High Octane
                 </div>
                 <div class="sauce-price pb-3">
-                  COMING SOON
+                  RIP
                 </div>
               </li>
 
@@ -277,7 +277,7 @@
                 <img class="img-fluid rounded mx-auto d-block w-25 pt-2" src="img/mysterybottle.png" alt="">
                 <div class="portfolio-box-caption">
                   <div class="project-category text-white-50">
-                    Coming Soon...
+                    Here lies the tombstone of
                   </div>
                   <div class="project-name">
                     Rocket Fuel
@@ -292,7 +292,7 @@
                   Rocket Fuel
                 </div>
                 <div class="sauce-price pb-3">
-                  COMING SOON
+                 RIP
                 </div>
               </li>
 
@@ -333,7 +333,7 @@
               <hr class="divider my-0 pb-4">
 
               <div class="newsletterdescription">
-                <p>K & M Hot Sauce is almost ready to go live. If you're interested, then sign up below to be the first to know when we are.</p>
+                <p>K & M Hot Sauce is no longer going to go live. If you're interested in putting your email into a database anyway, then sign up below for nothing to be sent to you.</p>
               </div>
               <div class="input">
                 <input type="text" class="button" id="newsletteremail" name="newsletteremail" placeholder="NAME@EXAMPLE.COM" required>

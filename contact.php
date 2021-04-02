@@ -171,7 +171,7 @@
 
       <div class="container pb-5 mt-5 ">
         <div class="name pb-4 text-center" style="font-size: 1.5em; ">
-          Leave your message, review, or inquiry here and we'll get back to you as soon as possible.
+          Want to chat? Leave your message here and we'll get back to you as soon as possible. After all, we have all the time on our hands since we're out of business.
         </div>
         <?php if($message !== "" && $message_type === "success"){ ?>
           <div class="alert alert-success">
@@ -236,7 +236,7 @@
               <hr class="divider my-0 pb-4">
 
               <div class="newsletterdescription">
-                <p>K & M Hot Sauce is almost ready to go live. If you're interested, then sign up below to be the first to know when we are.</p>
+                <p>K & M Hot Sauce is no longer going to go live. If you're interested in putting your email into a database anyway, then sign up below for nothing to be sent to you.</p>
               </div>
               <div class="input">
                 <input type="text" class="button" id="newsletteremail" name="newsletteremail" placeholder="NAME@EXAMPLE.COM" required>

@@ -200,7 +200,7 @@
         <div class="col-lg-6 order-lg-1">
           <div class="pt-5 pl-5 pr-5">
             <h2 class="display-4 name">Foster Morgan</h2>
-            <p class="profile-description">Foster was first taught the master of cooking cookies in middle school. Soon after, an epiphany occured to him. He realized he can create his own cookies anytime he wanted (not to mention he didn't have to leave the house). Fast forwarding a couple of years, Foster attends University of Wisconsin-Eau Claire with Sam, majoring in Computer Science. He even made this website you're looking at right now. It wasn't until recently that Sam inspired Foster to pick up his long lost passion for cooking, except this time the 'cookie dough' is a little more spicy.</p>
+            <p class="profile-description">Foster was first taught the master of cooking cookies in middle school. Soon after, an epiphany occurred to him. He realized he can create his own cookies anytime he wanted (not to mention he didn't have to leave the house). Fast forwarding a couple of years, Foster attends University of Wisconsin-Eau Claire with Sam, majoring in Computer Science. He even made this website you're looking at right now. It wasn't until recently that Sam inspired Foster to pick up his long lost passion for cooking, except this time the 'cookie dough' is a little more spicy.</p>
           </div>
           <div class="pr-5 pl-5 pb-5">
             <img class="img-fluid w-75" src="./img/fosterSignaturealpha.png" alt="Foster Morgan's Signature">
@@ -265,7 +265,7 @@
           <hr class="divider my-0 pb-4">
 
           <div class="newsletterdescription">
-            <p>K & M Hot Sauce is almost ready to go live. If you're interested, then sign up below to be the first to know when we are.</p>
+            <p>K & M Hot Sauce is no longer going to go live. If you're interested in putting your email into a database anyway, then sign up below for nothing to be sent to you.</p>
           </div>
           <div class="input">
             <input type="text" class="button" id="newsletteremail" name="newsletteremail" placeholder="NAME@EXAMPLE.COM" required>
